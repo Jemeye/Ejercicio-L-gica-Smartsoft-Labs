@@ -32,7 +32,7 @@ El programa se ejecuta en la consola, se le muestra al usuario el siguiente mens
 Luego, el programa muestra la respuesta a la pregunta ingresada por el usuario.
 
     
-**- Explicación de la obntención de datos**
+**- Explicación de la obtención de datos**
 
 Para extraer la información del .csv se utilizó la librería fs que permite extraer toda la información en un string, además, se usaron las funciones map y filter para extraer la información de cada fila y columna del .csv, conviertiéndola en un arreglo de objetos.
 
@@ -84,7 +84,7 @@ Adicionalmente, el código fuente cuenta con comentarios que explican el funcion
  
   **- Tabla con los datos de los estados**
  
-    ![Image text](https://ibb.co/vwTHNb6)
+    ![image](https://ibb.co/vwTHNb6)
 
   **- Respuesta a la primera pregunta**
     image.png
