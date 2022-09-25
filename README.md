@@ -84,7 +84,7 @@ Adicionalmente, el código fuente cuenta con comentarios que explican el funcion
  
   **- Tabla con los datos de los estados**
  
-    ![alt text](https://ibb.co/vwTHNb6)
+    ![Image text](https://ibb.co/vwTHNb6)
 
   **- Respuesta a la primera pregunta**
     image.png
