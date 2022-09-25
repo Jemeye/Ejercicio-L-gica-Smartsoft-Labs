@@ -16,7 +16,7 @@ Para ejecutar el comando en la consola usar el comando:
 
 Para el desarollo de la prueba técnica se utilizó el lenguaje de programación TypeScript, el cual es un superconjunto de JavaScript que añade tipado estático y objetos basados en clases. 
 
-    **-Explicación funcionamiento general**
+**-Explicación funcionamiento general**
 
 El programa se ejecuta en la consola, se le muestra al usuario el siguiente mensaje y se le pide ingresar el número de la pregunta de interés. 
 
@@ -32,25 +32,25 @@ El programa se ejecuta en la consola, se le muestra al usuario el siguiente mens
 Luego, el programa muestra la respuesta a la pregunta ingresada por el usuario.
 
     
-    **- Explicación de la obntención de datos**
+**- Explicación de la obntención de datos**
 
 Para extraer la información del .csv se utilizó la librería fs que permite extraer toda la información en un string, además, se usaron las funciones map y filter para extraer la información de cada fila y columna del .csv, conviertiéndola en un arreglo de objetos.
 
 Como delimitador se usó la coma (,) y se omitió la primera fila del .csv, ya que esta contiene los nombres de las columnas.
 
-    **- Explicación de la agrupación de datos**
+**- Explicación de la agrupación de datos**
 
 Para agrupar los datos se utilizó un foreach, el cual recorre el arreglo de objetos y va sumando las muertes y la población de cada ciudad perteneciente a un mismo estado, para luego agregarlos a un nuevo arreglo de tipo State que contiene el nombre, la población y el total de muertes de cada estado. 
 
 El arreglo que se retorna es ordenado de menor a mayor por el total de muertes de cada estado.
 
-    **- Explicación de la obtención de la respuesta a la primera pregunta**
+**- Explicación de la obtención de la respuesta a la primera pregunta**
 
 Debido a que el arreglo deState se encuentra ordenado de menor a mayor por el total de muertes, la respuesta a la primera pregunta se obtiene de la siguiente manera: 
 
     ```let stateWithMoreDeaths = states[states.length - 1];```
 
-    **- Explicación de la obtención de la respuesta a la segunda pregunta**
+**- Explicación de la obtención de la respuesta a la segunda pregunta**
 
 Debido a que el arreglo de State se encuentra ordenado de menor a mayor por el total de muertes, la respuesta a la segunda pregunta se obtiene de la siguiente manera: 
 
@@ -58,7 +58,7 @@ Debido a que el arreglo de State se encuentra ordenado de menor a mayor por el t
 
 Sólo se muestra el primer elemento del arreglo, por lo que si hay varios estados con un mismo nivel de afectación, se mostrará el primero de ellos.
 
-    **- Explicación de la obtención de la respuesta a la tercera pregunta**
+**- Explicación de la obtención de la respuesta a la tercera pregunta**
 
 Para obtener la respuesta a la tercera pregunta se creó un arreglo con el nombre de cada estado y con el porcentaje, el cual fue obtenido con la siguiente fórmula: 
 
@@ -70,7 +70,7 @@ Por último, se mostró el arreglo de objetos en la consola con ayuda de, que pe
     
         ```console.table(statesWithPercentageOfDeaths);```
 
-    **- Explicación de la obtención de la respuesta a la cuarta pregunta**
+**- Explicación de la obtención de la respuesta a la cuarta pregunta**
 
 Es importante mencionar que para esta pregunta se determinó que el estado más afectado correspondía a aquel que tuviera un porcentaje de muertes más alto. Por lo anterior, el arreglo de objetos objetivo en la tercera pregunta se ordenó de mayor a menor por el porcentaje de muertes y se mostró el primer elemento del arreglo en la consola.
 
@@ -83,7 +83,8 @@ Adicionalmente, el código fuente cuenta con comentarios que explican el funcion
 **4. Evidencia**
  
   **- Tabla con los datos de los estados**
- image.png
+ 
+    https://raw.githubusercontent.com/Jemeye/Ejercicio-L-gica-Smartsoft-Labs/master/Evidencias/Table-States1.png
 
   **- Respuesta a la primera pregunta**
     image.png
