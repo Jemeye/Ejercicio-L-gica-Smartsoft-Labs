@@ -84,7 +84,7 @@ Adicionalmente, el código fuente cuenta con comentarios que explican el funcion
  
   **- Tabla con los datos de los estados**
  
-    ![alt text](https://raw.githubusercontent.com/Jemeye/Ejercicio-L-gica-Smartsoft-Labs/master/Evidencias/Table-States1.png)
+    ![alt text](https://ibb.co/vwTHNb6)
 
   **- Respuesta a la primera pregunta**
     image.png
