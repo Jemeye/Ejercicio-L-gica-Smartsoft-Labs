@@ -83,21 +83,19 @@ Adicionalmente, el código fuente cuenta con comentarios que explican el funcion
 **4. Evidencia**
  
   **- Tabla con los datos de los estados**
- 
-    ![image](https://ibb.co/vwTHNb6)
+      En la carpeta de evidencias se encuentran tres imágenes tituladas ***Table-State1, Table-State2 y TableState3***, que muestran la tabla del arreglo de estados con la información de la población y las muertes. 
 
   **- Respuesta a la primera pregunta**
-    image.png
+      En la carpeta evidencias se encuentra la imagen de la respuesta 1 titulada ***Answer1***.
 
   **- Respuesta a la segunda pregunta**
-  image.png
+      En la carpeta evidencias se encuentra la imagen de la respuesta 2 titulada ***Answer2***.
 
   **- Respuesta a la tercera pregunta**
-  image.png
-  image.png
+      En la carpeta evidencias se encuentran las imagenes de la respuesta 3 tituladas ***Answer3a, Answer3b y Answer3c***.       
 
   **- Respuesta a la cuarta pregunta**
-  image.png
+      En la carpeta evidencias se encuentra la imagen de la respuesta 4 titulada ***Answer4***.
 
 
 **5. Generalidades**
