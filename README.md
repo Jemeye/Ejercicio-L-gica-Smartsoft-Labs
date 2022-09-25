@@ -108,4 +108,7 @@ Se usaron los siguientes comandos para el uso de los recursos utilizados en la p
     ```npm install prompt -- save```
     
 Además, se usaron dos librerias para el manejo de archivos de excel (fs) y para la lectura de datos desde la consola (readline).
+
+    ```import * as readline from 'readline';```
+    ```import fs from 'fs';```
     
